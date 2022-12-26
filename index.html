@@ -1,80 +1,44 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-    <title>Aryan Raj</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' id='style-css'  href='style.css' type='text/css' media='all' />
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="favicon.png" />
-    <meta name="msapplication-TileImage" content="favicon.png" />
+  <title>Music Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="home frontpage no-js">
-
-    <script>
-        //<![CDATA[
-        (function(){
-            var c = document.body.classList;
-            c.remove( 'no-js' );
-            c.add( 'js' );
-        })();
-        //]]>
-    </script>
-
-<div class="site-container">
-    <div class="site-header" id="header">
-        <div class="title-area">
-            <h1><figure class="alignleft"><img src="aryan.png" alt="aryan" class="profile"><figcaption> </figcaption></figure></h1>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="media/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
         </div>
-        <div class="menu"></div>
-    </div>
-
-    <div class="site-inner">
-        <div class="site-content" id="content">
-                <div class="intro">
-                <p>Hai... I'm Aryan aka rocking, an Unicorn Designer from Bihar, India.</p>
-                <p class="link-talk">
-                    <a href="https://www.aryanraj.com/" target="_blank" rel="noopener"> <svg id="lnr-link" viewBox="0 0 1024 1024"><title>link</title><path class="path1" d="M546.917 665.512c-48.275 0-96.55-18.376-133.301-55.128-9.998-9.997-9.998-26.206 0-36.203s26.205-9.997 36.203 0c53.539 53.541 140.656 53.541 194.197 0l186.166-186.166c53.539-53.539 53.539-140.656 0-194.197-53.541-53.539-140.656-53.538-194.197 0l-157.082 157.083c-9.998 9.997-26.206 9.997-36.203 0-9.998-9.998-9.998-26.206 0-36.205l157.083-157.083c73.502-73.501 193.101-73.501 266.603 0s73.502 193.101 0 266.603l-186.168 186.168c-36.752 36.752-85.027 55.128-133.302 55.128z"></path><path class="path2" d="M239.717 972.712c-48.275 0-96.55-18.376-133.302-55.128-73.501-73.502-73.501-193.101 0-266.603l186.166-186.166c73.501-73.501 193.101-73.501 266.603 0 9.998 9.998 9.998 26.206 0 36.203-9.997 9.998-26.206 9.998-36.203 0-53.541-53.541-140.656-53.541-194.197 0l-186.165 186.166c-53.539 53.541-53.539 140.656 0 194.197s140.656 53.541 194.195 0l157.083-157.083c9.997-9.997 26.206-9.997 36.203 0 9.998 9.997 9.998 26.206 0 36.203l-157.083 157.083c-36.75 36.752-85.026 55.128-133.301 55.128z"></path></svg> Official Website</a>
-                    <a href="https://blog.aryanraj.com/" target="_blank" rel="noopener"> <svg id="lnr-link" viewBox="0 0 1024 1024"><title>link</title><path class="path1" d="M546.917 665.512c-48.275 0-96.55-18.376-133.301-55.128-9.998-9.997-9.998-26.206 0-36.203s26.205-9.997 36.203 0c53.539 53.541 140.656 53.541 194.197 0l186.166-186.166c53.539-53.539 53.539-140.656 0-194.197-53.541-53.539-140.656-53.538-194.197 0l-157.082 157.083c-9.998 9.997-26.206 9.997-36.203 0-9.998-9.998-9.998-26.206 0-36.205l157.083-157.083c73.502-73.501 193.101-73.501 266.603 0s73.502 193.101 0 266.603l-186.168 186.168c-36.752 36.752-85.027 55.128-133.302 55.128z"></path><path class="path2" d="M239.717 972.712c-48.275 0-96.55-18.376-133.302-55.128-73.501-73.502-73.501-193.101 0-266.603l186.166-186.166c73.501-73.501 193.101-73.501 266.603 0 9.998 9.998 9.998 26.206 0 36.203-9.997 9.998-26.206 9.998-36.203 0-53.541-53.541-140.656-53.541-194.197 0l-186.165 186.166c-53.539 53.541-53.539 140.656 0 194.197s140.656 53.541 194.195 0l157.083-157.083c9.997-9.997 26.206-9.997 36.203 0 9.998 9.997 9.998 26.206 0 36.203l-157.083 157.083c-36.75 36.752-85.026 55.128-133.301 55.128z"></path></svg> Official Blog</a>
-                    <a href="https://www.aryanraj.net/" target="_blank" rel="noopener"> <svg id="lnr-link" viewBox="0 0 1024 1024"><title>link</title><path class="path1" d="M546.917 665.512c-48.275 0-96.55-18.376-133.301-55.128-9.998-9.997-9.998-26.206 0-36.203s26.205-9.997 36.203 0c53.539 53.541 140.656 53.541 194.197 0l186.166-186.166c53.539-53.539 53.539-140.656 0-194.197-53.541-53.539-140.656-53.538-194.197 0l-157.082 157.083c-9.998 9.997-26.206 9.997-36.203 0-9.998-9.998-9.998-26.206 0-36.205l157.083-157.083c73.502-73.501 193.101-73.501 266.603 0s73.502 193.101 0 266.603l-186.168 186.168c-36.752 36.752-85.027 55.128-133.302 55.128z"></path><path class="path2" d="M239.717 972.712c-48.275 0-96.55-18.376-133.302-55.128-73.501-73.502-73.501-193.101 0-266.603l186.166-186.166c73.501-73.501 193.101-73.501 266.603 0 9.998 9.998 9.998 26.206 0 36.203-9.997 9.998-26.206 9.998-36.203 0-53.541-53.541-140.656-53.541-194.197 0l-186.165 186.166c-53.539 53.541-53.539 140.656 0 194.197s140.656 53.541 194.195 0l157.083-157.083c9.997-9.997 26.206-9.997 36.203 0 9.998 9.997 9.998 26.206 0 36.203l-157.083 157.083c-36.75 36.752-85.026 55.128-133.301 55.128z"></path></svg> My Art Shop</a>
-                    <a href="https://www.aryanraj.in/" target="_blank" rel="noopener"> <svg id="lnr-link" viewBox="0 0 1024 1024"><title>link</title><path class="path1" d="M546.917 665.512c-48.275 0-96.55-18.376-133.301-55.128-9.998-9.997-9.998-26.206 0-36.203s26.205-9.997 36.203 0c53.539 53.541 140.656 53.541 194.197 0l186.166-186.166c53.539-53.539 53.539-140.656 0-194.197-53.541-53.539-140.656-53.538-194.197 0l-157.082 157.083c-9.998 9.997-26.206 9.997-36.203 0-9.998-9.998-9.998-26.206 0-36.205l157.083-157.083c73.502-73.501 193.101-73.501 266.603 0s73.502 193.101 0 266.603l-186.168 186.168c-36.752 36.752-85.027 55.128-133.302 55.128z"></path><path class="path2" d="M239.717 972.712c-48.275 0-96.55-18.376-133.302-55.128-73.501-73.502-73.501-193.101 0-266.603l186.166-186.166c73.501-73.501 193.101-73.501 266.603 0 9.998 9.998 9.998 26.206 0 36.203-9.997 9.998-26.206 9.998-36.203 0-53.541-53.541-140.656-53.541-194.197 0l-186.165 186.166c-53.539 53.541-53.539 140.656 0 194.197s140.656 53.541 194.195 0l157.083-157.083c9.997-9.997 26.206-9.997 36.203 0 9.998 9.997 9.998 26.206 0 36.203l-157.083 157.083c-36.75 36.752-85.026 55.128-133.301 55.128z"></path></svg> Diary of an Introvert</a>
-                    <a href="https://www.aryanraj.com/contact/" target="_blank" rel="noopener"> <svg id="lnr-link" viewBox="0 0 1024 1024"><title>link</title><path class="path1" d="M546.917 665.512c-48.275 0-96.55-18.376-133.301-55.128-9.998-9.997-9.998-26.206 0-36.203s26.205-9.997 36.203 0c53.539 53.541 140.656 53.541 194.197 0l186.166-186.166c53.539-53.539 53.539-140.656 0-194.197-53.541-53.539-140.656-53.538-194.197 0l-157.082 157.083c-9.998 9.997-26.206 9.997-36.203 0-9.998-9.998-9.998-26.206 0-36.205l157.083-157.083c73.502-73.501 193.101-73.501 266.603 0s73.502 193.101 0 266.603l-186.168 186.168c-36.752 36.752-85.027 55.128-133.302 55.128z"></path><path class="path2" d="M239.717 972.712c-48.275 0-96.55-18.376-133.302-55.128-73.501-73.502-73.501-193.101 0-266.603l186.166-186.166c73.501-73.501 193.101-73.501 266.603 0 9.998 9.998 9.998 26.206 0 36.203-9.997 9.998-26.206 9.998-36.203 0-53.541-53.541-140.656-53.541-194.197 0l-186.165 186.166c-53.539 53.541-53.539 140.656 0 194.197s140.656 53.541 194.195 0l157.083-157.083c9.997-9.997 26.206-9.997 36.203 0 9.998 9.997 9.998 26.206 0 36.203l-157.083 157.083c-36.75 36.752-85.026 55.128-133.301 55.128z"></path></svg> Get a free Website</a>
-                </p>
-                <h2 class="h2">Watch me on Youtube</h2>
-                <div class="youtube-section">
-                    <div class="yt-banner"><img src="favicon.png" alt="aryan" class="youtube-banner"></div>
-                    <div class="yt-details">
-                        <h3 class="yt-channel">Aryan Raj Arts</h3><p class="yt-description">A channel created by an artist for artists.</p><a href="https://www.youtube.com/channel/UCuk3Ay3hvCaImZJQNjV2A1g" target="_blank" rel="noopener" class="yt-button">Subscribe</a></div>
-                </div>
-
-
-                <h2 class="about">Subscribe the Newsletter</h2>
-
-                <div class="newsletter">
-                    <form id="subscribenewsletter-ext-3" action="https://app.convertkit.com/forms/2041597/subscriptions"
-                        method="post" name="newsletter-ext-3">
-                        <input type="text" id="subbox1" class="newsletter-subbox" value="" aria-label="First Name"
-                            placeholder="First Name" name="fields[first_name]"> <input type="email" value="" id="subbox"
-                            aria-label="E-Mail Address" placeholder="E-Mail Address" name="email_address"
-                            required="required">
-                        <input type="submit" value="Join" id="subbutton">
-                    </form>
-                </div>
-
-                <p class="emoji-talk">
-                    <span></span>
-                </p>
-                </div>
-      
+        <div class="content">
+            <div class="left-col">
+                <h1>WINTER <br> MORNING <br> SOUNDS</h1>
+            </div>
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="media/play.png" id="icon">
+            </div>
         </div>
+        <audio id="mySong" controls loop>
+            <source src="media/voyager.mp3" type="audio/mp3">
+        </audio>
     </div>
 
-    <div class="site-footer" id ="footer">
-        © rockingworks.
-    </div>
-    
-</div>
-
-
+<script>
+    var mySong = document.getElementById("mySong");
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        if(mySong.paused){
+            mySong.play();
+            icon.src = "media/pause.png";
+        }else{
+            mySong.pause();
+            icon.src = "media/play.png";
+        }
+    }
+</script>
 </body>
 </html>
